@@ -1,4 +1,7 @@
-# basic_c_program
+# Welcome :D
+
+# ABOUT THESE PROJECTS:
+
 Basic Programs who just start learning C. :D
 
 # PROCEDURE TO RUN THE PROGRAM:
@@ -26,3 +29,5 @@ Basic Programs who just start learning C. :D
 
 
 Author: Subhranshu Sekhar Choudhury :D
+
+LAST UPDATED ON: 15 JULY

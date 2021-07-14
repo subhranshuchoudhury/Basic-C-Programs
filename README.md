@@ -1,4 +1,4 @@
-# Welcome :D
+# Welcome :)
 
 # ABOUT THESE PROJECTS:
 

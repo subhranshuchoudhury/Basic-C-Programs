@@ -20,8 +20,8 @@ Basic Programs who just start learning C. :D
 4. The next step is to compile the program. To do this we need to use the command gcc followed by the name of the program we are going to execute. In our case, we will use helloworld.c.
 5. In the next step, we can run the program. This is done by simply giving the name of the executable file without any extension. On giving this we will get an output. Here, our Armstrong code is executed and we got output for this code.
 
-reference website: https://www.edureka.co/blog/how-to-compile-c-program-in-command-prompt/
-online c compiler: https://www.onlinegdb.com/online_c_compiler
+1. reference website: https://www.edureka.co/blog/how-to-compile-c-program-in-command-prompt/
+2. online c compiler: https://www.onlinegdb.com/online_c_compiler
 
 
 

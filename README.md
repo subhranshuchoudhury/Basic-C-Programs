@@ -31,4 +31,4 @@ Basic Programs who just start learning C. :D
 
 Author: Subhranshu Sekhar Choudhury :D
 
-LAST UPDATED ON: 15 JULY
+PUBLISHED ON: 15 JULY 2021

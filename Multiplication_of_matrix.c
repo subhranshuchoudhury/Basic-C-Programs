@@ -4,7 +4,9 @@
 int main()
 {
     int mata[3][3],matb[3][3],matc[3][3],i,j,k;
-    //printf("MATRIX A:");
+    
+    
+    //data input
 
     for ( i = 0; i < 3; i++)
     {
@@ -32,6 +34,8 @@ int main()
     }
 
     printf("\n");
+    
+    //datat input for matrix b
     
 
     for ( i = 0; i < 3; i++)

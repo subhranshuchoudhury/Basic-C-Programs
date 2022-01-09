@@ -4,12 +4,12 @@
 void addition(void);
 int main()
 {
-  addition();
+  addition(); //call the function.
   return 0;
 }
 //definition of prototype
 
-void addition (void)
+void addition (void) //remove semicolon.
 {
   int a,b;
   printf("Enter number:");

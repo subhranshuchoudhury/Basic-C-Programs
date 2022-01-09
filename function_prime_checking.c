@@ -25,6 +25,8 @@ void prime(int number) //independent of main function. num=number.
     
     if(count>2)
     printf("This is not prime.");
-    else
+    else if(count==2)
     printf("This is prime.");
+    else
+    printf("Neither prime nor composite.");
 }

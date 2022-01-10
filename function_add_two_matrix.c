@@ -11,13 +11,13 @@ int main()
     for(i=0;i<rc;i++)
     for(j=0;j<rc;j++)
     {
-        printf("Enter Data (Matrix-1): ");
+        printf("Enter Data For (Matrix-1): ");
         scanf("%d",&a[i][j]);
     }
     for(i=0;i<rc;i++)
     for(j=0;j<rc;j++)
     {
-        printf("Enter Data (Matrix-2): ");
+        printf("Enter Data For (Matrix-2): ");
         scanf("%d",&b[i][j]);
     }
     

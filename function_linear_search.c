@@ -8,7 +8,7 @@ void search(int[],int,int);//1:store array,2:size,3:key.
 int main()
 {
     int store[100],key,i,size;
-    printf("Enter Size of array: ");
+    printf("Enter size of array: ");
     scanf("%d",&size);
     printf("Enter number to store in array: \n");
     for(i=0;i<size;i++)
@@ -16,7 +16,7 @@ int main()
         printf("\n--> ");
         scanf("%d",&store[i]);
     }
-    printf("Search Key: ");
+    printf("Search key: ");
     scanf("%d",&key);
     search(store,size,key); //calling function.
     return 0;
@@ -30,12 +30,18 @@ void search(int store[],int size,int key)
     for(i=0;i<size;i++)
     {
         if(key==store[i])
-        counter++;
+        {
+            counter++;
         position=i+1;//as index start from 0.
+        printf("Found in index: %d\n",position);
+        }
+        
+        else
+        printf("Not found in index: %d\n",i+1);
     }
     
     if(counter>0)
-    printf("Result: Found in %d place(s).\nPosition: %d of %d (size).",counter,position,size);
+    printf("Result: Found in %d place(s).",counter);
     else
     printf("Result: Not found in array.");
 }

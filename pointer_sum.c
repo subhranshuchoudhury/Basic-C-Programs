@@ -10,8 +10,9 @@ int main()
     printf("Enter two numbers: ");
     scanf("%d%d",&a,&b);
     
-    //giving values of a and b to pointers.
-    p=&a;
+    //giving address value of a and b to pointers.
+    
+    p=&a; //assign address of a to pointer p.
     q=&b;
     
     //adding the address values.

@@ -1,0 +1,1 @@
+gets() - not working in newer version of compiler. use scanf to read string.

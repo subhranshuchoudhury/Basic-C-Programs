@@ -1,1 +1,3 @@
 gets() - not working in newer version of compiler. use scanf to read string.
+void main() -  if you got error. change it to int main() and put return 0; before last }.
+Functions -  Many functions (library)  are not working on latest version of compiler, so dont worry.

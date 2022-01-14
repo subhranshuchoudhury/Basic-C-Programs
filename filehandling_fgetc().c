@@ -4,8 +4,11 @@ int main() {
   char c;
   FILE *fh;//declare file handler.
   fh = fopen("test.txt","r");//r-open in read mode. NOTE: Must Create a file names "test.txt".
-  if(fh==NULL)
+  if(fh==NULL){
     printf("File not exist. Pls create the file.");
+    return 0;
+  }
+
   //create a file "test.txt" in compiler directory.
   //add a simple word in that file. eg.good
   //simply use online compiler (gdb c compiler).
